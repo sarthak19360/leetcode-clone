@@ -1,0 +1,100 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Ubuntu:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 70vw;
+  background-color: rgb(78, 71, 71);
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#navbar {
+  height: 55px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: fit-content;
+}
+
+#navbar ul img {
+  height: 20px;
+  width: 20px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-item {
+  margin: 25px;
+}
+
+.blog-item img {
+  height: 20px;
+  width: 20px;
+}
+
+.blog-item h3 {
+  font-size: 20px;
+}
+
+.blog-item p {
+  font-size: 17px;
+}
+
+.problem-info {
+  display: flex;
+}
+
+.login-form {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(212, 201, 173);
+  padding-bottom: 10px;
+}
+
+.login-form input {
+  margin: 8px;
+  border: 2px solid goldenrod;
+  border-radius: 5px;
+  padding: 2px;
+  height: 30px;
+  width: 50%;
+}
+
+.btn {
+  padding: 20px;
+  margin: 10px;
+  width: 100px;
+  border: 2px solid gold;
+  border-radius: 20px;
+  background-color: rgb(175, 159, 67);
+  color: white;
+  font-size: medium;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
